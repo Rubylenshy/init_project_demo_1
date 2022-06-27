@@ -69,15 +69,7 @@ ul.nav_links.links2 li{
     justify-content: center;
 }
 
-footer{
-    display: flex;
-    justify-content:center;
-    position: absolute;
-    top: 100%;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-}
+
 .vr{
     height: 40px;
     width: 5px;
@@ -99,6 +91,10 @@ span.large-text p{
 }
 #page-button{
     margin: 30px 12%;
+}
+#page-button:hover{
+    background-color: white;
+    color: rgb(7,43,7);
 }
 #page-button2{
     padding: 18px 25px;
@@ -162,9 +158,9 @@ span.large-text p{
 }
 .left-box{
     margin: 50px 2% 30px 8%;
-    padding: 20px;
+    padding: 30px;
     width: 25%;
-    height: 350px;
+    height: 300px;
     border: none;
     border-radius: 15px 0 15px 0;
     transition: 0.5s;
@@ -173,11 +169,21 @@ span.large-text p{
     box-shadow: 4px 5px 10px 8px rgb(0,0,0,0.2);
     transition-timing-function: ease-in-out;
 }
+.head-left-box{
+    border: none;
+    box-shadow: none;
+    height:2.5em;
+    font-size: 1.5em;
+}
+.sect-left-box{
+    font-size: 25px;
+    font-weight: bold;
+}
 .center-box{
     margin: 50px 2% 30px 4%;
     padding: 20px;
     width: 25%;
-    height: 350px;
+    height: 300px;
     border: none;
     border-radius: 15px 0 15px 0;
     transition: 0.5s;
@@ -186,11 +192,21 @@ span.large-text p{
     box-shadow: 4px 5px 10px 8px rgb(0,0,0,0.2);
     transition-timing-function: ease-in-out;
 }
+.head-center-box{
+    border: none;
+    box-shadow: none;
+    height:2.5em;
+    font-size: 1.5em;
+}
+.sect-center-box{
+    font-size: 25px;
+    font-weight: bold;
+}
 .right-box{
     margin: 50px 2% 30px 4%;
     padding: 20px;
     width: 25%;
-    height: 350px;
+    height: 300px;
     border: none;
     border-radius: 15px 0 15px 0;
     transition: 0.5s;
@@ -198,4 +214,115 @@ span.large-text p{
 .right-box:hover{
     box-shadow: 4px 5px 10px 8px rgb(0,0,0,0.2);
     transition-timing-function: ease-in-out;
+}
+.head-right-box{
+    border: none;
+    box-shadow: none;
+    height:2.5em;
+    font-size: 1.5em;
+}
+.sect-right-box{
+    font-size: 25px;
+    font-weight: bold;
+}
+.box-left{
+    width: 65%;
+    margin: 40px 5% 40px 8%;
+    height: 500px;
+    background-image: url(./img/bg_cheffings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-right{
+    width: 25%;
+    margin: 40px 5%;
+    height: 300px;
+}
+.section-A{
+    background-color: rgba(230, 209, 209, 0.199);
+    padding: 30px 5%;
+    height: 400px;
+    border: none;
+    border-radius: 120px 0 0 0;
+    margin: 0 0 20px 0;
+}
+.section-A p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-B{
+    height: 250px;
+}
+.section-C{
+    display: flex;
+}
+.order-bottom{
+    height: 400px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 10%;
+}
+.enrol-mail{
+    height: 500px;
+    background-image: url(./img/mail-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 0 0 0 120px;
+}
+.mail-form{
+    background-color: white;
+    height: 220px;
+    width: 40%;
+    margin: 100px 0 0 20%;
+    padding: 20px;
+}
+form{
+    margin-top: 20px;
+}
+form label{
+    margin: 10px 10px;
+    font-size: 15px;
+}
+.header-form{
+    font-size: 30px;
+    width: 15em;
+    margin: 0 0 10px;
+}
+.btn-sub{
+    padding: 9px 18px;
+    margin: 0 0 20px 10px;
+    background-color: transparent;
+    color: rgb(7, 43, 7);
+}
+form div input{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    height: 2.8em;
+    width: 20em;
+}
+form div input::content{
+    font-size: 2em;
+}
+form div input:active{
+    border-top: none;
+}
+.bottom-logo{
+    font-size: 30px;
+    margin: 25px 0 25px 10px;
+}
+hr{
+    margin: 20px 5% 20px 5%;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 100%;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
 }
